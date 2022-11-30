@@ -16,6 +16,6 @@ jobs:
       - name: dispatch feed-updated
         uses: peter-evans/repository-dispatch@v1
         with:
-          token: ${{ secrets.GITHUB_ACCESS_TOKEN }}
+          token: ${{ secrets.GH_ACTIONS_TOKEN }}
           repository: ${{ matrix.repo }}
           event-type: feed-updated
