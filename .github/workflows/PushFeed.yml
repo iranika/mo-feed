@@ -1,0 +1,21 @@
+name: feed file updated
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'feed.atom'
+jobs:
+  feed-file-updated:
+    strategy:
+      matrix:
+        repo: ['iranika/mo-4koma']
+    name: feed-file-updated
+    runs-on: ubuntu-latest
+    steps:
+      - name: dispatch feed-updated
+        uses: peter-evans/repository-dispatch@v1
+        with:
+          token: ${{ secrets.GITHUB_ACCESS_TOKEN }}
+          repository: ${{ matrix.repo }}
+          event-type: feed-updated

@@ -1,0 +1,38 @@
+name: New Update Check
+
+on:
+  workflow_dispatch:
+  
+  schedule:
+    - cron: '*/15 * * * *'
+      branches:
+        - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: initialize git setting.
+      run: |
+        git config --global user.name "iranika"
+        git config --global user.email "7370486+iranika@users.noreply.github.com"
+        git remote set-url origin https://iranika:${GITHUB_TOKEN}@github.com/iranika/mo-code-4koma.git
+    - name: Setup PowerShell module cache
+      id: cacher
+      uses: actions/cache@v2
+      with:
+        path: "~/.local/share/powershell/Modules"
+        key: ${{ runner.os }}-AngleParse
+    - name: install module
+      if: steps.cacher.outputs.cache-hit != 'true'
+      shell: pwsh
+      run: |
+        Set-PSRepository PSGallery -InstallationPolicy Trusted
+        Install-Module AngleParse
+    - name: check update momoirocode 
+      run: |
+        pwsh ./mops/mops.ps1 -Debug
+    - name: commit 4koma feed and json
+      run: |
+        (git add feed.atom update-info.dat 4komaData.json 4komaDataMin.js 4komaData.js && git commit -m "mops: find new update." && git push) || echo "No update."
