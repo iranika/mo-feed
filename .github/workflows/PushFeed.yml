@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - 'feed.atom'
+  
 jobs:
   feed-file-updated:
     strategy:
