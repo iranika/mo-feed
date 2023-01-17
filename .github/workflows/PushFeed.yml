@@ -1,5 +1,6 @@
 name: feed file updated
 on:
+  workflow_dispatch:
   push:
     paths:
       - 'feed.atom'
