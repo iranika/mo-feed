@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'feed.atom'
+      - '**/feed.atom'
   
 jobs:
   feed-file-updated:
