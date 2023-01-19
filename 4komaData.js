@@ -2783,5 +2783,13 @@ pageData =
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 307
+  },
+  {
+    "Title": "リザルト",
+    "ImagesUrl": [
+      "https://mo-4koma.iranika.info/4koma/ja/308-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
+    ],
+    "Index": 308
   }
 ]
