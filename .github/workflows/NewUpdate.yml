@@ -31,7 +31,8 @@ jobs:
         Install-Module AngleParse
     - name: check update momoirocode 
       run: |
-        pwsh ./mops/mops.ps1 -Debug
+        cd www
+        pwsh ../mops/mops.ps1 -Debug
     - name: commit 4koma feed and json
       run: |
         (git add feed.atom update-info.dat 4komaData.json 4komaDataMin.js 4komaData.js && git commit -m "mops: find new update." && git push) || echo "No update."
