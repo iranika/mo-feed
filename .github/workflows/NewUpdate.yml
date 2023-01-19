@@ -31,7 +31,7 @@ jobs:
         Install-Module AngleParse
     - name: check update momoirocode 
       run: |
-        cd www
+        cd docs
         pwsh ../mops/mops.ps1 -Debug
     - name: commit 4koma feed and json
       run: |
