@@ -12,14 +12,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: initialize git setting.
       run: |
         git config --global user.name "iranika"
         git config --global user.email "7370486+iranika@users.noreply.github.com"
     - name: Setup PowerShell module cache
       id: cacher
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       with:
         path: "~/.local/share/powershell/Modules"
         key: ${{ runner.os }}-AngleParse
