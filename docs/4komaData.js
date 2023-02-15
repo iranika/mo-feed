@@ -2788,8 +2788,20 @@ pageData =
     "Title": "リザルト",
     "ImagesUrl": [
       "https://mo-4koma.iranika.info/4koma/ja/308-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/308-2.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/308-3.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/308-4.jpg",
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 308
+  },
+  {
+    "Title": "もくしょく",
+    "ImagesUrl": [
+      "https://mo-4koma.iranika.info/4koma/ja/309-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/309-2.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
+    ],
+    "Index": 309
   }
 ]
