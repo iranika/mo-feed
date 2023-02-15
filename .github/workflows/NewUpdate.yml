@@ -35,4 +35,5 @@ jobs:
         pwsh ../mops/mops.ps1 -Debug
     - name: commit 4koma feed and json
       run: |
+        cd docs
         (git add feed.atom update-info.dat 4komaData.json 4komaDataMin.js 4komaData.js && git commit -m "mops: find new update." && git push) || echo "No update."
