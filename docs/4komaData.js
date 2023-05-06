@@ -2859,5 +2859,13 @@ pageData =
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 315
+  },
+  {
+    "Title": "ぼやぼや",
+    "ImagesUrl": [
+      "https://mo-4koma.iranika.info/4koma/ja/316-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
+    ],
+    "Index": 316
   }
 ]
