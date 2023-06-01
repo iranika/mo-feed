@@ -2878,5 +2878,12 @@ pageData =
       "sp.jpg"
     ],
     "Index": 317
+  },
+  {
+    "Title": "値下げ",
+    "ImagesUrl": [
+      ""
+    ],
+    "Index": 318
   }
 ]
