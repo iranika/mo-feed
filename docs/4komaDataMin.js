@@ -2882,7 +2882,8 @@ pageData =
   {
     "Title": "値下げ",
     "ImagesUrl": [
-      ""
+      "318-1.jpg",
+      "sp.jpg"
     ],
     "Index": 318
   }
