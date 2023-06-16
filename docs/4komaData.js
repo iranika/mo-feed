@@ -2888,5 +2888,13 @@ pageData =
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 318
+  },
+  {
+    "Title": "記念梅酒",
+    "ImagesUrl": [
+      "https://mo-4koma.iranika.info/4koma/ja/319-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
+    ],
+    "Index": 319
   }
 ]
