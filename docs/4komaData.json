@@ -3213,8 +3213,15 @@
     "ImagesUrl": [
       "319-1.jpg",
       "319-2.jpg",
+      "319-3.jpg",
       "sp.jpg"
     ],
     "Index": 319
+  },
+  {
+    "Title": "ビンテージ",
+    "BaseUrl": "http://momoirocode.web.fc2.com/4koma/320.html",
+    "ImagesUrl": null,
+    "Index": 320
   }
 ]
