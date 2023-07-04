@@ -2901,7 +2901,10 @@ pageData =
   },
   {
     "Title": "ビンテージ",
-    "ImagesUrl": null,
+    "ImagesUrl": [
+      "https://mo-4koma.iranika.info/4koma/ja/320-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
+    ],
     "Index": 320
   }
 ]
