@@ -2925,5 +2925,13 @@ pageData =
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 322
+  },
+  {
+    "Title": "先輩",
+    "ImagesUrl": [
+      "https://mo-4koma.iranika.info/4koma/ja/323-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
+    ],
+    "Index": 323
   }
 ]
