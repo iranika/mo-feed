@@ -2935,5 +2935,13 @@ pageData =
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 323
+  },
+  {
+    "Title": "客室",
+    "ImagesUrl": [
+      "https://mo-4koma.iranika.info/4koma/ja/324-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
+    ],
+    "Index": 324
   }
 ]
