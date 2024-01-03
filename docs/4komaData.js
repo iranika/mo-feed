@@ -3018,5 +3018,13 @@ pageData =
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 331
+  },
+  {
+    "Title": "わんぱく相撲",
+    "ImagesUrl": [
+      "https://mo-4koma.iranika.info/4koma/ja/332-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
+    ],
+    "Index": 332
   }
 ]
