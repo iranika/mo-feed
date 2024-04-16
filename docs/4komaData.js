@@ -3094,5 +3094,13 @@ pageData =
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 339
+  },
+  {
+    "Title": "おはなみ",
+    "ImagesUrl": [
+      "https://mo-4koma.iranika.info/4koma/ja/340-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
+    ],
+    "Index": 340
   }
 ]
