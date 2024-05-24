@@ -3143,5 +3143,13 @@ pageData =
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 345
+  },
+  {
+    "Title": "がまん",
+    "ImagesUrl": [
+      "https://mo-4koma.iranika.info/4koma/ja/346-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
+    ],
+    "Index": 346
   }
 ]
