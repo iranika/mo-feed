@@ -3164,5 +3164,13 @@ pageData =
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 347
+  },
+  {
+    "Title": "木琴",
+    "ImagesUrl": [
+      "https://mo-4koma.iranika.info/4koma/ja/348-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
+    ],
+    "Index": 348
   }
 ]
