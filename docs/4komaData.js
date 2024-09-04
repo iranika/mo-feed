@@ -3216,5 +3216,13 @@ pageData =
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 353
+  },
+  {
+    "Title": "食べ方",
+    "ImagesUrl": [
+      "https://mo-4koma.iranika.info/4koma/ja/354-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
+    ],
+    "Index": 354
   }
 ]
