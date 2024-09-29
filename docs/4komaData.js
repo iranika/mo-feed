@@ -3241,5 +3241,13 @@ pageData =
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 356
+  },
+  {
+    "Title": "餅投げ",
+    "ImagesUrl": [
+      "https://mo-4koma.iranika.info/4koma/ja/357-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
+    ],
+    "Index": 357
   }
 ]
