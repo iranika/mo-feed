@@ -3256,6 +3256,7 @@ pageData =
     "Title": "落とし物",
     "ImagesUrl": [
       "https://mo-4koma.iranika.info/4koma/ja/358-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/358-2.jpg",
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 358
