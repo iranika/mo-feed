@@ -3263,5 +3263,13 @@ pageData =
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 358
+  },
+  {
+    "Title": "干し柿",
+    "ImagesUrl": [
+      "https://mo-4koma.iranika.info/4koma/ja/359-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
+    ],
+    "Index": 359
   }
 ]
