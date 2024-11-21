@@ -3273,5 +3273,13 @@ pageData =
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 359
+  },
+  {
+    "Title": "便利",
+    "ImagesUrl": [
+      "https://mo-4koma.iranika.info/4koma/ja/360-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
+    ],
+    "Index": 360
   }
 ]
