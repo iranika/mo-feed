@@ -3322,5 +3322,13 @@ pageData =
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 364
+  },
+  {
+    "Title": "気構え",
+    "ImagesUrl": [
+      "https://mo-4koma.iranika.info/4koma/ja/365-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
+    ],
+    "Index": 365
   }
 ]
