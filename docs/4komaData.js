@@ -3348,6 +3348,7 @@ pageData =
     "Title": "お彼岸うどん",
     "ImagesUrl": [
       "https://mo-4koma.iranika.info/4koma/ja/367-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/367-2.jpg",
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 367
