@@ -3352,5 +3352,13 @@ pageData =
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 367
+  },
+  {
+    "Title": "うどん学校",
+    "ImagesUrl": [
+      "https://mo-4koma.iranika.info/4koma/ja/368-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
+    ],
+    "Index": 368
   }
 ]
