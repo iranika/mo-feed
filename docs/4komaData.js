@@ -3404,5 +3404,13 @@ pageData =
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 372
+  },
+  {
+    "Title": "人形供養",
+    "ImagesUrl": [
+      "https://mo-4koma.iranika.info/4koma/ja/373-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
+    ],
+    "Index": 373
   }
 ]
