@@ -3455,5 +3455,13 @@ pageData =
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 377
+  },
+  {
+    "Title": "彼岸花",
+    "ImagesUrl": [
+      "https://mo-4koma.iranika.info/4koma/ja/378-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
+    ],
+    "Index": 378
   }
 ]
