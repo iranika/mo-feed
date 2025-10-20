@@ -3465,5 +3465,13 @@ pageData =
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 378
+  },
+  {
+    "Title": "肩こり",
+    "ImagesUrl": [
+      "https://mo-4koma.iranika.info/4koma/ja/379-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
+    ],
+    "Index": 379
   }
 ]
