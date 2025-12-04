@@ -3493,5 +3493,13 @@ pageData =
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 381
+  },
+  {
+    "Title": "日々是好日",
+    "ImagesUrl": [
+      "https://mo-4koma.iranika.info/4koma/ja/382-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
+    ],
+    "Index": 382
   }
 ]
