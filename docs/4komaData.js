@@ -3501,5 +3501,13 @@ pageData =
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 382
+  },
+  {
+    "Title": "進歩",
+    "ImagesUrl": [
+      "https://mo-4koma.iranika.info/4koma/ja/383-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
+    ],
+    "Index": 383
   }
 ]
