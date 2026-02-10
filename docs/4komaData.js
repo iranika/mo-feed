@@ -3546,5 +3546,13 @@ pageData =
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 387
+  },
+  {
+    "Title": "文旦",
+    "ImagesUrl": [
+      "https://mo-4koma.iranika.info/4koma/ja/388-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
+    ],
+    "Index": 388
   }
 ]
