@@ -3560,6 +3560,7 @@ pageData =
     "Title": "デトックス",
     "ImagesUrl": [
       "https://mo-4koma.iranika.info/4koma/ja/389-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/389-2.jpg",
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 389
