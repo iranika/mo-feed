@@ -5,35 +5,47 @@ on:
   
   schedule:
     - cron: '*/15 * * * *'
-      branches:
-        - main
+
+concurrency:
+  group: new-update-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
-    - uses: actions/checkout@v3
-    - name: initialize git setting.
-      run: |
-        git config --global user.name "iranika"
-        git config --global user.email "7370486+iranika@users.noreply.github.com"
-    - name: Setup PowerShell module cache
-      id: cacher
-      uses: actions/cache@v3
-      with:
-        path: "~/.local/share/powershell/Modules"
-        key: ${{ runner.os }}-AngleParse
-    - name: install module
-      if: steps.cacher.outputs.cache-hit != 'true'
-      shell: pwsh
-      run: |
-        Set-PSRepository PSGallery -InstallationPolicy Trusted
-        Install-Module AngleParse
-    - name: check update momoirocode 
-      run: |
-        cd docs
-        pwsh ../mops/mops.ps1 -Debug
-    - name: commit 4koma feed and json
-      run: |
-        cd docs
-        (git add feed.atom update-info.dat 4komaData.json 4komaDataMin.js 4komaData.js && git commit -m "mops: find new update." && git push) || echo "No update."
+      - uses: actions/checkout@v4
+      - name: initialize git setting.
+        run: |
+          git config user.name "iranika"
+          git config user.email "7370486+iranika@users.noreply.github.com"
+      - name: Setup PowerShell module cache
+        id: cacher
+        uses: actions/cache@v4
+        with:
+          path: "~/.local/share/powershell/Modules"
+          key: ${{ runner.os }}-psmodules-anglparse
+      - name: install module
+        if: steps.cacher.outputs.cache-hit != 'true'
+        shell: pwsh
+        run: |
+          Set-PSRepository PSGallery -InstallationPolicy Trusted
+          Install-Module AngleParse
+      - name: check update momoirocode 
+        run: |
+          cd docs
+          pwsh ../mops/mops.ps1 -Debug
+      - name: commit 4koma feed and json
+        run: |
+          cd docs
+          git add feed.atom update-info.dat 4komaData.json 4komaDataMin.js 4komaData.js
+          if git diff --cached --quiet; then
+            echo "No update."
+            exit 0
+          fi
+          git commit -m "mops: find new update."
+          git push

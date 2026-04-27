@@ -12,7 +12,7 @@ param (
 Import-Module AngleParse
 
 #アップデートのチェック
-$check = & $PSScriptRoot/check-update.ps1 -NoSaveHashFile -OutFile $OutFile
+$check = & $PSScriptRoot/check-update.ps1 -ReadFile $OutFile
 
 if ($check -or $ForceCheck){
     # アップデートがある or 更新にかかわらず強制実行する場合の処理
@@ -28,7 +28,11 @@ if ($check -or $ForceCheck){
         $newContent = & $PSScriptRoot/update-json.ps1 -ReturnNewContentOnly -Debug
         Write-Debug "new-content: $($newContent | ConvertTo-Json)"
         & $PSScriptRoot/update-feed.ps1 -DataObject $newContent -Debug
-        $check.Hash | Out-File $OutFile -Encoding utf8 -NoNewline    
+    }
+
+    # update-info.dat の更新は mops の責務（check-update は保存しない）
+    if ($check) {
+        $check.Hash | Out-File $OutFile -Encoding utf8 -NoNewline
     }
 
     return $true

@@ -6,6 +6,13 @@ on:
       - main
     paths:
       - '**/feed.atom'
+
+concurrency:
+  group: push-feed-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
 jobs:
   feed-file-updated:
     strategy:
@@ -15,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: dispatch feed-updated
-        uses: peter-evans/repository-dispatch@v2
+        uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.GH_ACTIONS_TOKEN }}
           repository: ${{ matrix.repo }}
