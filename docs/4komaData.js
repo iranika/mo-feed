@@ -3630,5 +3630,13 @@ pageData =
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 396
+  },
+  {
+    "Title": "願い事",
+    "ImagesUrl": [
+      "https://mo-4koma.iranika.info/4koma/ja/397-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
+    ],
+    "Index": 397
   }
 ]
