@@ -3640,5 +3640,13 @@ pageData =
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 397
+  },
+  {
+    "Title": "コンポスト",
+    "ImagesUrl": [
+      "https://mo-4koma.iranika.info/4koma/ja/398-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
+    ],
+    "Index": 398
   }
 ]
