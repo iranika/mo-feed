@@ -3650,5 +3650,13 @@ pageData =
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 398
+  },
+  {
+    "Title": "撮影",
+    "ImagesUrl": [
+      "https://mo-4koma.iranika.info/4koma/ja/399-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
+    ],
+    "Index": 399
   }
 ]
