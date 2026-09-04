@@ -3670,5 +3670,13 @@ pageData =
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 400
+  },
+  {
+    "Title": "怒鳴られる",
+    "ImagesUrl": [
+      "https://mo-4koma.iranika.info/4koma/ja/401-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
+    ],
+    "Index": 401
   }
 ]
