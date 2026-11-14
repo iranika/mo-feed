@@ -3710,5 +3710,13 @@ pageData =
       "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
     ],
     "Index": 404
+  },
+  {
+    "Title": "解禁",
+    "ImagesUrl": [
+      "https://mo-4koma.iranika.info/4koma/ja/405-1.jpg",
+      "https://mo-4koma.iranika.info/4koma/ja/sp.jpg"
+    ],
+    "Index": 405
   }
 ]
